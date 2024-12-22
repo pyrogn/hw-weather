@@ -137,8 +137,8 @@ def main():
 
             fig = px.box(
                 city_data,
-                x="Сезон",
-                y="Температура",
+                x="season",
+                y="temperature",
                 title=f"Температура по сезонам в {selected_city}",
             )
             st.plotly_chart(fig)
